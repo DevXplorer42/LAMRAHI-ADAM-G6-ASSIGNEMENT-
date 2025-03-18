@@ -362,6 +362,34 @@ print(sorted(liste))
 Écrivez une fonction qui prenne deux listes en entrée et retourne l'intersection des deux listes (c'est-à-dire une liste contenant tous les éléments présents dans les deux listes).
 ```
 
+
+
+
+### CORRECTION DU 2 EME EXERCICE PAR LAMRAHI ADAM : 
+```#ADAM LAMRAHI
+def inter(l1,l2):
+   
+   
+    l3=list()
+    for e in l1:
+        if e in l2: l3.append(e)
+   
+   
+   
+   
+   
+    return l3
+l1= [3,5,7,8]
+l2=[3,1]
+```print("Intersection : ", inter(l1,l2))
+
+
+
+
+
+
+
+
 <div id="pad_4.2" class="pad"></div>
 <script>
     Pythonpad('pad_4.2', 
