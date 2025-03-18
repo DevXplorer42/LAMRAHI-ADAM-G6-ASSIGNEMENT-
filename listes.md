@@ -198,7 +198,11 @@ Pour tous ces parcours de listes, il est conseillé d'utiliser des noms de varia
 ```{admonition} Exercice 4.1 : Argmax
 Écrivez une fonction en Python qui permette de calculer l'argmax d'une liste, c'est-à-dire l'indice auquel est stockée la valeur maximale de la liste.
 Si cette valeur maximale est présente plusieurs fois dans la liste, on retournera l'indice de sa première occurrence.
+
+### Correction Par Lamrahi Adam : 
+
 ```
+#ADAMLAMRAHI
 l = [3,8,15,-1,0,12]
 2	def argmax(l):
 3	    m,k = l[0],0
@@ -211,8 +215,8 @@ l = [3,8,15,-1,0,12]
 10	l = [3,8,15,-1,0,12]
 11	
 12	ma, po =argmax(l)      
-13	print("max : ", ma, "------>", po)#ADAMLAMRAHI
-
+13	print("max : ", ma, "------>", po)
+```
 <div id="pad_4.1" class="pad"></div>
 <script>
     Pythonpad('pad_4.1', 
